@@ -37,8 +37,10 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMoreAboutTesting.cs" />
+    <Compile Include="MoreAboutTesting.cs" />
     <Compile Include="SimpleClassToBeTested.cs" />
-    <Compile Include="IClass1.cs" />
+    <Compile Include="ISimpleClassToBeTested.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

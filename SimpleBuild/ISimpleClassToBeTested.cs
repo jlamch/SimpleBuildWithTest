@@ -1,6 +1,6 @@
 ﻿namespace SimpleBuild
 {
-    public interface IClass1
+    public interface ISimpleClassToBeTested
     {
         int AddNumbers(int a, int b);
     }
